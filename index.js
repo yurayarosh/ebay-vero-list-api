@@ -1,6 +1,6 @@
-import express from 'express';
-import puppeteer from 'puppeteer';
-import 'dotenv/config';
+const express = require('express');
+const puppeteer = require('puppeteer');
+require('dotenv').config();
 
 const getList = async res => {
   // // Launch the browser and open a new blank page
