@@ -1,0 +1,19 @@
+{
+  "name": "ebay-vero-list",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ebay VeRO list API",
+  "main": "index.js",
+  "author": "yurayarosh<yura12323@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.8.0"
+  }
+}
