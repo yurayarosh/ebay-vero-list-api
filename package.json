@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index",
     "start": "node index"
   },
   "keywords": [],
@@ -15,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "nodemon": "^3.1.0",
     "puppeteer": "^19.7.2"
   }
 }
